@@ -12,29 +12,14 @@ Steps to create web application
 4.create web.xml file in WEB-INF folder.
   web.xml file is also called as Deployment Descriptor.
 
-# Where to write .html,.css and .js files?
-Ans:-Context Root
-
-# Where to write .java Programs? 
-Ans:- in classes folder
-
-# What an lib folder contains?
-Ans:-.jar file
-
-To write a servlet we have to use servlet api
-# Where we can find servlet api?
-C:\Program Files\Apache Software Foundation\Tomcat 10.1\lib\servelet-api.jar
-
-There are five abstract methods in servlets
-
-  public abstract void init();
-  public abstract getServletConfig();
-  public abstract void service();
-  public abstract getServletInfo();
-  public abstract void destroy();
+# There are five abstract methods in servlets
+  1.public abstract void init();
+  2.public abstract getServletConfig();
+  3.public abstract void service();
+  4.public abstract getServletInfo();
+  5.public abstract void destroy();
 
 init(),service(),destroy()methods are life cycle methods.
-
 * servlets are created and destroyed by a servlet engine
 
 init() is invoke by servlet engine the time of servlet creation(i.e object creation).
