@@ -1,11 +1,11 @@
 # Servlets
 
-*it is a server side program which takes the request from the client,process it and sends the response back
-to the client.
+* it is a server side program which takes the request from the client,process it and sends the response back
+  to the client.
 * servlet is a web component or java enterprise component.
-*If you want to write a servlet.You have to create web application.
+* If you want to write a servlet.You have to create web application.
 
-Steps to create web application
+# Steps to create web application
 1.create a folder(context root) in C:\Program Files\Apache Software Foundation\Tomcat 10.1\webapps
 2.create a WEB-INF folder in context root(WebApp1)
 3.create classes,lib folder in WEB-INF folder.
